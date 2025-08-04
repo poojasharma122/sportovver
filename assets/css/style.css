@@ -817,7 +817,6 @@ section.maincards {
 .footer-col .social_profile {
     padding-top: 20px;
 }
-
 /*Footer css end */
 /*Footwear css start */
 .shoe-listing {
@@ -827,13 +826,12 @@ section.maincards {
 .shoe-listing h2 {
   text-align: center;
   font-size: 50px;
-  margin-bottom: 20px;
   padding-top: 20px;
 }
 .multigrid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    row-gap: 40px;
+   gap: 40px;
 }
 .shoe-item {
     display: flex;
@@ -844,27 +842,26 @@ section.maincards {
 }
 
 .shoe-logo {
-  width: 30px;
-  height: 30px;
-  object-fit: contain;
-  margin-top: 4px;
+    max-width: 250px;
+    margin: 0 auto;
+    margin-top: 4px;
 }
-
 .shoe-info {
-  line-height: 1.4;
+    line-height: 1.4;
+    text-align: center;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 .shoe-brand {
-  font-size: 14px;
-  color: #555;
+    font-size: 22px;
+    color: var(--pink);
   margin: 0;
-  text-decoration: underline;
 }
 
 .shoe-info a {
-  font-weight: bold;
-  color: #000;
-  text-decoration: underline;
-  font-size: 15px;
+    font-weight: bold;
+    color: var(--black);
+    font-size: 20px;
 }
 /*Footwear css end */
