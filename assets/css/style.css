@@ -1057,3 +1057,65 @@ section.maincards {
 }
 
 /*Contact css end */
+
+/*Privacy css start */
+.policies-part {
+    line-height: 1.7;
+    background-color: #fff8f3;
+    border: 1px solid #e0d6ce;
+    padding: 80px 20px;
+}
+
+.policies-part .privacy-container {
+    max-width: 1000px;
+    margin: auto;
+    background-color: var(--white);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.policies-part h1,
+.policies-part h2 {
+    color: var(--black);
+}
+
+.policies-part h1 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.policies-part h2 {
+    font-size: 20px;
+    margin: 14px 0;
+}
+
+.policies-part ul {
+    margin-left: 20px;
+    padding-left: 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.policies-part ul li {
+    margin-bottom: 6px;
+    list-style: disc;
+    line-height: normal;
+}
+
+.policies-part .privacy-container p {
+    line-height: normal;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.policies-part a {
+    color: var(--pink);
+    text-decoration: none;
+}
+
+.policies-part a:hover {
+    text-decoration: underline;
+}
+
+/*Privacy css end */
