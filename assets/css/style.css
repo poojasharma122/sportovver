@@ -92,7 +92,7 @@ p {
 /* header css start */
 
 .header-section {
-    background-color: #fff;
+    background-color: var(--white);
     border-bottom: 0.0625rem solid rgba(0, 0, 0, 0.10);
     z-index: 9999;
     position: sticky;
@@ -156,7 +156,7 @@ p {
 }
 
 .bg_light {
-    background-color: #fff;
+    background-color: var(--white);
 }
 
 .text_dark {
@@ -231,6 +231,23 @@ Mobile Menu Styles
     display: inline-block;
 }
 
+.ssl-card {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 180px;
+    background-image: url(../images/ssl.png);
+}
+
+.footer-col.brand-col img {
+    margin-bottom: 20px;
+}
+
+.foter-mail p {
+    margin-top: 20px;
+    color: var(--white);
+}
+
 .menu-toggle-btn {
     display: none;
     width: 2rem;
@@ -262,7 +279,7 @@ Mobile Menu Styles
     text-decoration: none;
     line-height: normal;
     position: relative;
-    color: #fff;
+    color: var(--white);
     letter-spacing: 1px;
     font-weight: 400;
 }
@@ -435,7 +452,7 @@ Keyframe Animations
 
 .homebanner_content h1 {
     font-size: 3.5rem;
-    color: #fff;
+    color: var(--white);
     line-height: 1.4;
     max-width: 50.625rem;
     letter-spacing: 0.5px;
@@ -445,7 +462,7 @@ Keyframe Animations
 
 .homebanner_content p {
     font-size: 1.2rem;
-    color: #fff;
+    color: var(--white);
     max-width: 40.625rem;
     margin-top: 1rem;
     line-height: 1.5;
@@ -670,10 +687,13 @@ section.maincards {
     transform: translateY(-6px);
 }
 
-.article-card img {
+.article-image {
     width: 100%;
     height: 250PX;
     object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .article-card h3 {
@@ -697,7 +717,7 @@ section.maincards {
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 60px 20px;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid var(--white);
     max-width: 1400px;
     margin: 0 auto;
 }
@@ -749,14 +769,14 @@ section.maincards {
 .newsletter-form {
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid var(--white);
     margin-top: 10px;
 }
 
 .newsletter-form input {
     background: transparent;
     border: none;
-    color: #fff;
+    color: var(--white);
     flex: 1;
     padding: 10px 0;
     outline: none;
@@ -765,7 +785,7 @@ section.maincards {
 .newsletter-form button {
     background: none;
     border: none;
-    color: #fff;
+    color: var(--white);
     font-size: 20px;
     cursor: pointer;
 }
@@ -782,7 +802,7 @@ section.maincards {
 }
 
 .social-icons i:hover {
-    color: #fff;
+    color: var(--white);
 }
 
 .footer-bottom {
@@ -794,7 +814,7 @@ section.maincards {
 
 .footer-bottom p {
     text-align: center;
-    color: #fff;
+    color: var(--white);
 }
 
 .bottom-sec {
@@ -918,47 +938,40 @@ section.maincards {
 /*About css end */
 
 /*Contact css start */
+
 .contact-wrapper {
-    padding: 60px 20px;
-    background-color: #ffffff;
-    font-family: Arial, sans-serif;
-    color: #333;
+    padding: 60px 0 15px;
+    color: var(--black);
 }
 
 .contact-wrapper .contact-container {
-    max-width: 1100px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
+.contact-wrapper p {
+    text-align: center;
+}
+
+.contact-wrapper p.email {
+    margin: 20px 0;
+}
+
 .contact-wrapper .contact-title {
-    font-size: 22px;
+    font-size: 30px;
     font-weight: bold;
     margin-bottom: 15px;
+    text-align: center;
 }
 
-.contact-wrapper .contact-grid {
-    display: flex;
-    gap: 40px;
-    flex-wrap: wrap;
-}
-
-.contact-wrapper .contact-left,
-.contact-wrapper .contact-right {
-    flex: 1 1 450px;
-}
-
-.contact-wrapper .contact-info,
-.contact-wrapper .contact-social {
-    margin-bottom: 40px;
-}
-
-.contact-wrapper .contact-info p,
-.contact-wrapper .contact-social p {
-    margin-bottom: 10px;
+.contact-wrapper .contact-divider {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 40px 0;
 }
 
 .contact-wrapper .contact-form form {
-    margin-top: 20px;
+    width: 100%;
 }
 
 .contact-wrapper .form-group {
@@ -970,6 +983,8 @@ section.maincards {
     display: block;
     margin-bottom: 6px;
     font-weight: 600;
+    color: var(--pink);
+    font-size: 18px;
 }
 
 .contact-wrapper .form-group input,
@@ -982,28 +997,39 @@ section.maincards {
 }
 
 .contact-wrapper .submit-button {
-    background-color: #333;
-    color: #fff;
-    padding: 12px 24px;
-    font-size: 16px;
+    background-color: var(--black);
+    color: var(--white);
+    padding: 12px 45px;
     border: none;
     border-radius: 4px;
+    font-size: 18px;
     cursor: pointer;
+    border: 1px solid var(--black);
 }
 
 .contact-wrapper .submit-button:hover {
-    background-color: #555;
+    background-color: transparent;
+    color: var(--black);
 }
 
-.contact-wrapper .social-icons {
-    margin-top: 10px;
+.contact-social .social_profile svg {
+    fill: var(--pink);
+}
+
+.contact-social .social_profile path {
+    fill: var(--pink);
+}
+
+.contact-social .social_profile ul {
+    justify-content: center;
+    margin-top: 15px;
 }
 
 .contact-wrapper .social-icon {
     display: inline-block;
     margin-right: 15px;
     font-weight: 600;
-    color: #333;
+    color: var(--black);
     text-decoration: none;
 }
 
@@ -1011,7 +1037,23 @@ section.maincards {
     text-decoration: underline;
 }
 
+.contact-social {
+    text-align: center;
+}
 
+.contact-img {
+    width: 100%;
+}
 
+.contact-img img {
+    height: 400px;
+    object-fit: contain;
+}
+
+.contactform-wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 50px;
+}
 
 /*Contact css end */

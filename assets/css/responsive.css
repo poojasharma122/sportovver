@@ -114,6 +114,10 @@
     .shoe-logo {
         height: auto;
     }
+
+    .contactform-wrapper {
+        flex-direction: column-reverse;
+    }
 }
 
 @media screen and (max-width:749px) {
@@ -145,6 +149,10 @@
 }
 
 @media screen and (max-width:595px) {
+    .homebanner.commonbanner {
+        height: 350px;
+    }
+
     .multigrid {
         grid-template-columns: 1fr;
     }
