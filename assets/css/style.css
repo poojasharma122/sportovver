@@ -411,7 +411,7 @@ Keyframe Animations
 }
 
 /*Banner css start */
-.commonbanner {
+.homebanner.commonbanner {
     height: 500px;
 }
 .homebanner {
@@ -826,25 +826,26 @@ section.maincards {
 .shoe-listing h2 {
   text-align: center;
   font-size: 50px;
-  padding-top: 20px;
 }
 .multigrid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
    gap: 40px;
+   padding-top: 25px;
 }
 .shoe-item {
     display: flex;
     align-items: flex-start;
     gap: 10px;
-    margin-bottom: 20px;
     flex-direction: column;
 }
 
 .shoe-logo {
-    max-width: 250px;
+    max-width: 350px;
     margin: 0 auto;
     margin-top: 4px;
+    height: 250px;
+    object-fit: contain;
 }
 .shoe-info {
     line-height: 1.4;

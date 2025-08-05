@@ -92,6 +92,12 @@ font-size: 45px;
 .footer-col h3 {
     margin: 10px 0;
 }
+.multigrid {
+    grid-template-columns: repeat(2, 1fr);
+}
+.shoe-logo{
+    height: auto;
+}
 }
 @media screen and (max-width:749px){
     .article-card {
@@ -113,6 +119,9 @@ font-size: 45px;
     }
 }
 @media screen and (max-width:595px){
+        .multigrid {
+        grid-template-columns: 1fr;
+    }
         .brand-container a {
         display: inline-block;
         max-width: 170px;
