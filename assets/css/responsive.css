@@ -157,12 +157,17 @@
 }
 
 @media screen and (max-width:595px) {
+    .shoe-listing h2 {
+        font-size: 38px;
+    }
+
     .mainblog-inner .hero-image img {
         height: auto;
     }
 
     .mainblog-inner .title {
         font-size: 20px;
+        line-height: 25px;
     }
 
     .homebanner.commonbanner {

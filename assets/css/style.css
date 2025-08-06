@@ -664,6 +664,7 @@ section.maincards {
 .field-header h2 {
     font-size: 33px;
     font-weight: 700;
+    margin-bottom: 10px;
 }
 
 
@@ -1094,6 +1095,7 @@ section.maincards {
 .policies-part h2 {
     font-size: 20px;
     margin: 14px 0;
+    line-height: normal;
 }
 
 .policies-part ul {
