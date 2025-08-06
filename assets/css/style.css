@@ -170,6 +170,9 @@ Mobile Menu Styles
 */
 
 /* Header CSS Start */
+.social_profile li:nth-child(1) img {
+    max-width: 27px;
+}
 .social_profile ul {
     display: flex;
     gap: 10px;
