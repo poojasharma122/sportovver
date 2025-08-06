@@ -157,6 +157,10 @@
 }
 
 @media screen and (max-width:595px) {
+    .policies-part {
+        padding: 50px 20px;
+    }
+
     .shoe-listing h2 {
         font-size: 38px;
     }
