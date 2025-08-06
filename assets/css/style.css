@@ -843,7 +843,12 @@ section.maincards {
 .footer-col .social_profile {
     padding-top: 20px;
 }
-
+.social_profile li svg {
+    stroke: var(--white);
+    width: 25px;
+    height: 20px;
+    fill: var(--white);
+}
 /*Footer css end */
 /*Footwear css start */
 .shoe-listing {
