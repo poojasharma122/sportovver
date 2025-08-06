@@ -1035,13 +1035,14 @@ section.maincards {
     background-color: transparent;
     color: var(--black);
 }
-
+.contact-social .social_profile li:nth-child(1) img {
+    max-width: 30px;
+}
 .contact-social .social_profile li img {
     filter: invert(1);
 }
-
-.contact-social .social_profile svg {
-    fill: var(--black);
+.contact-social .social_profile li svg {
+    height: 23px;
 }
 
 .contact-social .social_profile path {
