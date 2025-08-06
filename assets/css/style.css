@@ -474,12 +474,12 @@ Keyframe Animations
 }
 
 .common-btn a {
-     color: var(--white);
+    color: var(--white);
     font-size: 18px;
     background: #ffb8b8;
     padding: 11px 29px;
     border-radius: 3px;
-    border: 1px solid  #ffb8b8;
+    border: 1px solid #ffb8b8;
 }
 
 .common-btn {
@@ -796,9 +796,21 @@ section.maincards {
 .social-icons {
     margin-top: 20px;
 }
+
+.social_profile li img:hover {
+    transform: translateY(-3px);
+    transition: .3s;
+}
+
+.social_profile li svg:hover {
+    transform: translateY(-3px);
+    transition: .3s;
+}
+
 .social_profile li img {
     max-width: 24px;
 }
+
 .social-icons i {
     margin-right: 15px;
     cursor: pointer;
@@ -847,12 +859,14 @@ section.maincards {
 .footer-col .social_profile {
     padding-top: 20px;
 }
+
 .social_profile li svg {
     stroke: var(--white);
     width: 25px;
     height: 20px;
     fill: var(--white);
 }
+
 /*Footer css end */
 /*Footwear css start */
 .shoe-listing {
@@ -1022,12 +1036,16 @@ section.maincards {
     color: var(--black);
 }
 
+.contact-social .social_profile li img {
+    filter: invert(1);
+}
+
 .contact-social .social_profile svg {
-    fill: var(--pink);
+    fill: var(--black);
 }
 
 .contact-social .social_profile path {
-    fill: var(--pink);
+    fill: var(--black);
 }
 
 .contact-social .social_profile ul {
