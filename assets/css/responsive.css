@@ -122,6 +122,10 @@
     .blog-card-section {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .mainblog-inner {
+        margin: 50px 20px;
+    }
 }
 
 @media screen and (max-width:749px) {
@@ -153,6 +157,13 @@
 }
 
 @media screen and (max-width:595px) {
+    .mainblog-inner .hero-image img {
+        height: auto;
+    }
+
+    .mainblog-inner .title {
+        font-size: 20px;
+    }
 
     .homebanner.commonbanner {
         height: 350px;
