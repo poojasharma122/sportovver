@@ -177,7 +177,7 @@ Mobile Menu Styles
 }
 
 .nav_topbar .social_profile svg {
-    height: 25px;
+    height: 21px;
     color: var(--blendclr);
 }
 
@@ -796,7 +796,9 @@ section.maincards {
 .social-icons {
     margin-top: 20px;
 }
-
+.social_profile li img {
+    max-width: 24px;
+}
 .social-icons i {
     margin-right: 15px;
     cursor: pointer;
