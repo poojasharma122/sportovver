@@ -474,12 +474,12 @@ Keyframe Animations
 }
 
 .common-btn a {
-    color: var(--white);
+     color: var(--white);
     font-size: 18px;
-    background: var(--pink);
+    background: #ffb8b8;
     padding: 11px 29px;
     border-radius: 3px;
-    border: 1px solid var(--pink);
+    border: 1px solid  #ffb8b8;
 }
 
 .common-btn {
